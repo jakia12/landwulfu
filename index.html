@@ -25,12 +25,13 @@
 
     <style>
       @font-face {
+        font-family: "myFirstFont";
+        src: url("/GentyDemo-Regular.ttf") format("woff2");
+      }
+      @font-face {
         font-family: "Midorima";
-        src: url("fonts/MyCustomFont.woff2") format("woff2"),
-          url("fonts/MyCustomFont.woff") format("woff"),
-          url("fonts/MyCustomFont.ttf") format("truetype");
-        font-weight: normal;
-        font-style: normal;
+        src: url("/midorima.ttf") format("woff2"),
+          url("/midorima.ttf") format("woff");
       }
     </style>
     <script>
@@ -957,7 +958,7 @@
                           </style>
                           <h4
                             style="
-                              font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+                              font-family: 'Midorima', Tahoma, Geneva, Verdana,
                                 sans-serif;
                             "
                           >
@@ -1207,7 +1208,10 @@
                       font-size: 59px;
                     }
                   </style>
-                  <h1 class="elementor-heading-title elementor-size-default">
+                  <h1
+                    class="elementor-heading-title elementor-size-default"
+                    style="font-family: 'myFirstFont', sans-serif !important"
+                  >
                     Landwulfu
                   </h1>
                 </div>
@@ -1384,7 +1388,10 @@
                 data-widget_type="heading.default"
               >
                 <div class="elementor-widget-container">
-                  <div class="elementor-heading-title elementor-size-default">
+                  <div
+                    class="elementor-heading-title elementor-size-default"
+                    style="font-family: 'Midorima', sans-serif !important"
+                  >
                     Half man, half wolf. Chinese Landwulf, a Matt Furie creation
                     unlike any that came before. He’s just a cool dude who loves
                     to meditate, hang around, and do yoga. The LANDWULFU is
@@ -1893,7 +1900,10 @@
                 data-widget_type="heading.default"
               >
                 <div class="elementor-widget-container">
-                  <h6 class="elementor-heading-title elementor-size-default">
+                  <h6
+                    class="elementor-heading-title elementor-size-default"
+                    style="font-family: 'Midorima', sans-serif !important"
+                  >
                     Landwulfu
                   </h6>
                 </div>
@@ -1906,7 +1916,10 @@
                 data-widget_type="heading.default"
               >
                 <div class="elementor-widget-container">
-                  <h2 class="elementor-heading-title elementor-size-default">
+                  <h2
+                    class="elementor-heading-title elementor-size-default"
+                    style="font-family: 'myFirstFont', sans-serif !important"
+                  >
                     ABOUT US
                   </h2>
                 </div>
@@ -1960,13 +1973,13 @@
                       display: inline-block;
                     }
                   </style>
-                  <p>
+                  <p style="font-family: 'Midorima', sans-serif !important">
                     The LANDWULFU Token merges the beloved LANDWOLF meme with
                     the charm of LANDWOLF cultural elements, resulting in a
                     refreshing and captivating synthesis that pays homage to
                     tradition while embracing the future.
                   </p>
-                  <p>
+                  <p style="font-family: 'Midorima', sans-serif !important">
                     Join us on an exhilarating journey that’s unlike any other
                     in the crypto space. The LANDWULFU Token isn’t just a
                     digital asset; it’s an experience that allows you to be part
@@ -2048,6 +2061,9 @@
                         <div class="elementor-widget-container">
                           <h6
                             class="elementor-heading-title elementor-size-default"
+                            style="
+                              font-family: 'Midorima', sans-serif !important;
+                            "
                           >
                             TOKENOMICS
                           </h6>
@@ -2063,6 +2079,9 @@
                         <div class="elementor-widget-container">
                           <h2
                             class="elementor-heading-title elementor-size-default"
+                            style="
+                              font-family: 'myFirstFont', sans-serif !important;
+                            "
                           >
                             $WULFU
                           </h2>
